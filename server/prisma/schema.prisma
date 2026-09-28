@@ -1,0 +1,121 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Admin {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String // bcrypt hash
+  createdAt DateTime @default(now())
+
+  refreshTokens RefreshToken[]
+}
+
+model RefreshToken {
+  id        Int       @id @default(autoincrement())
+  adminId   Int
+  tokenHash String    @unique
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+  expiresAt DateTime
+
+  admin Admin @relation(fields: [adminId], references: [id], onDelete: Cascade)
+
+  @@index([adminId])
+  @@index([expiresAt])
+}
+
+model Diploma {
+  id   Int    @id @default(autoincrement())
+  slug String @unique
+
+  titleAr String
+  titleEn String
+
+  descriptionAr String
+  descriptionEn String
+
+  durationMonths Int
+
+  requirementsAr String?
+  requirementsEn String?
+  curriculumAr   String?
+  curriculumEn   String?
+
+  objectivesAr String?
+  objectivesEn String?
+  outcomesAr   String?
+  outcomesEn   String?
+
+  careerEnabled         Boolean  @default(false)
+  careerOpportunitiesEn String[] @default([])
+  careerOpportunitiesAr String[] @default([])
+
+  advantagesEnabled   Boolean  @default(false)
+  diplomaAdvantagesEn String[] @default([])
+  diplomaAdvantagesAr String[] @default([])
+
+  topStudentsRewardEnabled Boolean  @default(false)
+  topStudentsRewardEn      String[] @default([])
+  topStudentsRewardAr      String[] @default([])
+
+  isActive Boolean @default(false)
+
+  imageUrl     String?
+  thumbnailUrl String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum StaffRole {
+  MANAGER
+  TEACHER
+}
+
+model Staff {
+  id            Int       @id @default(autoincrement())
+  nameAr        String
+  nameEn        String
+  role          StaffRole
+  bioAr         String
+  bioEn         String
+  expertiseTags String[]  @default([])
+  imageUrl      String?
+  thumbnailUrl  String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model GalleryItem {
+  id           Int      @id @default(autoincrement())
+  category     String
+  captionAr    String   @default("")
+  captionEn    String   @default("")
+  imageUrl     String
+  thumbnailUrl String
+  createdAt    DateTime @default(now())
+}
+
+model Category {
+  id        Int      @id @default(autoincrement())
+  key       String   @unique // القيمة التي نخزنها داخل GalleryItem.category
+  nameAr    String
+  nameEn    String
+  createdAt DateTime @default(now())
+}
+
+model ContactMessage {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  phone     String?
+  subject   String?
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
