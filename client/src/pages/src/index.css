@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* HTCT Brand Theme (Navy + Burgundy) */
+    --background: 210 40% 98%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    /* Cards stay white on off-white background for a premium look */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    /* Primary = Navy (Academic / Trust) */
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --primary-light: 222.2 47.4% 18%;
+    --primary-dark: 222.2 47.4% 8%;
+
+    /* Accent = Burgundy (Luxury / CTA) */
+    --accent: 357.2 64.5% 33.1%;
+    --accent-foreground: 210 40% 98%;
+    --accent-light: 357.2 64.5% 40%;
+    --accent-dark: 357.2 64.5% 28%;
+
+    /* Secondary / Muted */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 212.7 26.8% 83.9%;
+    --input: 212.7 26.8% 83.9%;
+    --ring: 357.2 64.5% 33.1%;
+
+    --radius: 0.75rem;
+
+    /* Brand Gradients (Subtle, Premium) */
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(var(--primary-dark)) 0%,
+      hsl(var(--primary)) 55%,
+      hsl(var(--primary-light)) 100%
+    );
+
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(var(--primary-dark)) 0%,
+      hsl(var(--primary)) 45%,
+      hsl(var(--primary-light)) 100%
+    );
+
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(var(--accent-dark)) 0%,
+      hsl(var(--accent)) 60%,
+      hsl(var(--accent-light)) 100%
+    );
+
+    --gradient-card: linear-gradient(
+      180deg,
+      hsl(0 0% 100%) 0%,
+      hsl(var(--background)) 100%
+    );
+
+    /* Shadows (Soft, Premium) */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md:
+      0 6px 10px -6px rgb(0 0 0 / 0.12), 0 2px 6px -3px rgb(0 0 0 / 0.08);
+    --shadow-lg:
+      0 14px 20px -14px rgb(0 0 0 / 0.18), 0 6px 10px -6px rgb(0 0 0 / 0.1);
+    --shadow-xl:
+      0 22px 30px -20px rgb(0 0 0 / 0.22), 0 10px 18px -10px rgb(0 0 0 / 0.1);
+
+    --shadow-accent: 0 10px 26px -14px hsl(var(--accent) / 0.35);
+    --shadow-primary: 0 10px 26px -14px hsl(var(--primary) / 0.25);
+
+    /* Admin Sidebar (English-only) */
+    --sidebar-background: 222.2 47.4% 11.2%;
+    --sidebar-foreground: 210 40% 98%;
+
+    /* Sidebar Primary CTA */
+    --sidebar-primary: 357.2 64.5% 33.1%;
+    --sidebar-primary-foreground: 210 40% 98%;
+
+    /* Sidebar Accent / Hover */
+    --sidebar-accent: 217.2 32.6% 17.5%;
+    --sidebar-accent-foreground: 210 40% 98%;
+
+    --sidebar-border: 217 32% 20%;
+    --sidebar-ring: 357.2 64.5% 33.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: "Inter", sans-serif;
+  }
+
+  html[dir="rtl"] {
+    font-family: "Cairo", sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-gold);
+  }
+
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+
+  .bg-gradient-gold {
+    background-image: var(--gradient-gold);
+  }
+
+  .bg-gradient-card {
+    background-image: var(--gradient-card);
+  }
+
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .shadow-primary {
+    box-shadow: var(--shadow-primary);
+  }
+
+  /* RTL Support */
+  [dir="rtl"] .rtl\:space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+  }
+
+  [dir="rtl"] .rtl\:text-right {
+    text-align: right;
+  }
+
+  /* Admin specific styles */
+  .admin-layout {
+    @apply min-h-screen bg-background;
+  }
+
+  .admin-sidebar {
+    @apply fixed left-0 top-0 h-full w-64 bg-sidebar text-sidebar-foreground;
+  }
+
+  .admin-content {
+    @apply ml-64 min-h-screen p-6;
+  }
+
+  /* Public layout */
+  .public-layout {
+    @apply min-h-screen;
+  }
+
+  /* Card hover effects */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  /* Button variants */
+  .btn-gold {
+    @apply bg-gradient-gold text-foreground font-semibold shadow-gold 
+           hover:opacity-90 transition-all duration-200;
+  }
+
+  .btn-primary-gradient {
+    @apply bg-gradient-primary text-primary-foreground font-semibold shadow-primary 
+           hover:opacity-90 transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .animation-delay-150 {
+    animation-delay: 150ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+}

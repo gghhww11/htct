@@ -1,0 +1,306 @@
+{
+  "nav": {
+    "home": "Home",
+    "diplomas": "Diplomas",
+    "staff": "Staff",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Al-Haytham Center for Tourism & Hospitality Training",
+      "subtitle": "Professional programs in tourism, hospitality, and hotel management — Rural Damascus (Al-Tal). Practical training in a modern learning environment.",
+      "cta": "Explore Diplomas"
+    },
+    "features": {
+      "title": "Why Choose Us?",
+      "quality": {
+        "title": "Practical, career-focused training",
+        "description": "We combine strong fundamentals with hands-on skills to prepare you for the job market."
+      },
+      "experience": {
+        "title": "Modern curriculum & expert instructors",
+        "description": "Structured learning with guidance and applied projects that boost your readiness."
+      },
+      "certificates": {
+        "title": "Well-equipped training environment",
+        "description": "Modern classrooms, computers, photo/video editing tools, and a training kitchen."
+      }
+    },
+    "stats": {
+      "students": "Students",
+      "diplomas": "Specialized Diplomas",
+      "years": "Years of Experience",
+      "graduates": "Graduates"
+    },
+    "programs": {
+      "title": "Most Popular Tracks",
+      "subtitle": "Diverse learning paths designed for tourism and hospitality careers.",
+      "items": {
+        "travel": {
+          "title": "Travel & Tourism Office Management",
+          "desc": "Booking skills, customer handling, and trip coordination."
+        },
+        "culinary": {
+          "title": "Culinary Arts & Pastry",
+          "desc": "Hands-on training in cooking techniques and kitchen fundamentals."
+        },
+        "media": {
+          "title": "Tourism Media & Promotion Design",
+          "desc": "Design, editing, and digital marketing for tourism."
+        },
+        "hospitality": {
+          "title": "Tourism & Hotel Business Management",
+          "desc": "Hospitality basics, operations, and customer service."
+        }
+      },
+      "cta": "View All Diplomas"
+    },
+    "facilities": {
+      "title": "Training Environment",
+      "subtitle": "Facilities that support hands-on practice and real-world simulation.",
+      "items": {
+        "classrooms": "Modern, well-equipped classrooms",
+        "computers": "Computers & laptops for practice",
+        "studio": "Photo/video gear & editing stations",
+        "kitchen": "Fully equipped training kitchen"
+      }
+    },
+    "vision": {
+      "title": "Vision & Mission",
+      "visionLabel": "Vision",
+      "missionLabel": "Mission",
+      "visionText": "Graduating qualified professionals aligned with tourism and hospitality market needs.",
+      "missionText": "Delivering quality training that blends knowledge with hands-on practice in a modern environment.",
+      "cta": "Learn more about us"
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": {
+        "q1": {
+          "q": "Is the training practical?",
+          "a": "Yes. Each track includes hands-on components depending on the specialization."
+        },
+        "q2": {
+          "q": "Where is the center located?",
+          "a": "Rural Damascus — Al-Tal."
+        },
+        "q3": {
+          "q": "Are diplomas suitable for beginners?",
+          "a": "Yes. We offer beginner-friendly tracks as well as advanced paths."
+        },
+        "q4": {
+          "q": "How can I contact you?",
+          "a": "You can reach us via the Contact page or the floating WhatsApp button."
+        }
+      }
+    },
+    "seo": {
+      "title": "Al-Haytham Tourism & Hospitality Training Center | HTCT",
+      "description": "Professional training programs in tourism and hospitality in Rural Damascus (Al-Tal). Diverse diplomas with hands-on learning and modern facilities."
+    }
+  },
+  "diplomas": {
+    "title": "Our Programs",
+    "subtitle": "Choose from a variety of specialized diplomas",
+    "duration": "Duration",
+    "viewDetails": "View Details",
+    "apply": "Apply Now",
+    "months": "Months",
+    "requirements": "Admission Requirements",
+    "curriculum": "Curriculum",
+    "notFound": "Diploma not found"
+  },
+  "staff": {
+    "title": "Our Team",
+    "subtitle": "A group of academics and experts across different specialties"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Highlights from our activities and events",
+    "all": "All"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Learn about our vision, mission, goals, and training environment",
+    "seo": {
+      "title": "About Us | Al-Haytham Tourism & Hospitality Training Center",
+      "description": "Discover Al-Haytham Center in: vision, mission, goals, facilities, and training tracks in tourism & hospitality."
+    },
+    "hero": {
+      "title": "About Us",
+      "subtitle": "A specialized training and education center in tourism, hospitality, and hotel services. We combine knowledge with hands-on practice."
+    },
+    "story": {
+      "title": "Center Overview",
+      "p1": "Al-Haytham Tourism & Hospitality Training Center is a specialized education and training center focused on tourism, hospitality, and hotel services. We aim to prepare learners who want to work professionally in tourism, travel, and hotel operations.",
+      "p2": "Our approach blends theory with real-world practice, focusing on job-market skills. We provide a modern training environment and practical facilities that help learners build real experience.",
+      "p3": "The center features spacious interiors that support smooth movement and comfortable practical training, creating a flexible environment for different activities and courses."
+    },
+
+    "visionImportance": {
+      "title": "First: Our Vision & Why It Matters",
+      "subtitle": "A clear vision is the compass that guides priorities, aligns efforts, and creates real impact.",
+      "p1": "No institution can achieve excellence through material and human resources alone. A clear vision is the compass that guides work, sets priorities, and makes the real difference.",
+      "p2": "Vision reflects the center’s future ambition and the long-term picture we strive to achieve. It also unifies efforts and inspires both the team and trainees to reach the highest standards of performance and professionalism.",
+      "p3": "From this perspective, we operate with a clear vision, mission, and measurable goals—translated into practical programs and real outcomes aligned with the job market."
+    },
+
+    "programs": {
+      "title": "Training Tracks",
+      "subtitle": "Specialized programs designed to build skills and open career opportunities in tourism and hospitality.",
+      "items": {
+        "travel": {
+          "title": "Travel & Tourism Office Management",
+          "desc": "Tourism industry basics, office operations, booking systems & ticketing, trip planning, and customer service."
+        },
+        "culinary": {
+          "title": "Culinary Arts & Pastry",
+          "desc": "A practice-driven track that develops cooking and pastry skills aligned with quality and food safety standards."
+        },
+        "media": {
+          "title": "Tourism Media, Design & Promotion",
+          "desc": "Graphic design, content production, digital tourism marketing, and campaign management across platforms."
+        },
+        "management": {
+          "title": "Tourism & Hotel Business Management",
+          "desc": "Management basics, marketing, accounting, customer service, and practical hotel/event operations."
+        }
+      },
+      "cta": "Explore Diplomas"
+    },
+
+    "vm": {
+      "title": "Vision & Mission",
+      "missionTitle": "Our Mission",
+      "missionText": "Our mission is to qualify trainees academically and practically, enabling them to enter the job market with confidence and competence through integrated programs that combine theoretical knowledge with hands-on application. We focus on developing professional and behavioral skills, deepening understanding of hospitality, hotel operations, and heritage crafts—ensuring graduates deliver high-quality services that reflect community identity and meet the needs of a growing tourism sector.",
+      "visionTitle": "Our Vision",
+      "visionText": "We strive to deliver tourism and hospitality training with high-quality standards that directly and positively impacts trainees’ career paths. Our graduates become effective, distinguished contributors in the job market, capable of competing locally and regionally. We also aspire for the center to be a leading reference in tourism and hospitality training, and a key contributor to developing the hospitality industry and heritage crafts by preparing qualified cadres aligned with the latest professional standards."
+    },
+
+    "goals": {
+      "title": "Our Goals",
+      "subtitle": "Clear goals that shape how we train and ensure an organized, measurable learning experience.",
+      "items": {
+        "g1": "Adopt advanced, high-impact education systems for tourism training using interactive learning, practical simulation, and field training focused on applied competence.",
+        "g2": "Use structured study plans for each program to ensure clear progression and balanced theory–practice integration.",
+        "g3": "Define trainees’ career paths from day one through career guidance, identifying interests and strengths, and building development plans that include practical training, certifications, and interview readiness.",
+        "g4": "Build a supportive, positive relationship with trainees through effective communication, listening to feedback, and creating a motivating environment that encourages initiative and teamwork.",
+        "g5": "Cooperate with international, regional, and local institutions in training and qualification to raise program quality and expand practical opportunities and recognized professional accreditations.",
+        "g6": "Connect graduates directly to the job market through strong partnerships with tourism and hospitality entities, job nominations, career events, and post-graduation follow-up."
+      }
+    },
+
+    "facilities": {
+      "title": "Training Environment & Facilities",
+      "subtitle": "A modern setup that simulates real work in tourism, hospitality, culinary arts, media, and design.",
+      "items": {
+        "classrooms": {
+          "title": "Modern Classrooms",
+          "desc": "Spacious rooms with modern furniture, screens, advanced learning tools, plus proper lighting and ventilation."
+        },
+        "computers": {
+          "title": "Computers & Design Laptops",
+          "desc": "High-spec machines for design, editing, and digital marketing, equipped with professional software for applied projects."
+        },
+        "studio": {
+          "title": "Photo/Video & Editing Setup",
+          "desc": "Modern cameras, lighting systems, rigs, and full editing stations for professional visual content production."
+        },
+        "kitchen": {
+          "title": "Fully Equipped Training Kitchen",
+          "desc": "A complete kitchen for practical culinary training, aligned with quality and food safety standards."
+        },
+        "nutrition": {
+          "title": "Nutrition Diploma Tools",
+          "desc": "Digital food scales, calorie/meal composition tools, body measurement tracking tools, and modern learning resources."
+        },
+        "space": {
+          "title": "Spacious Interiors",
+          "desc": "Flexible space that supports comfortable movement and practical training across different activities."
+        }
+      }
+    },
+
+    "facilitiesLong": {
+      "p1": "Al-Haytham Tourism & Hospitality Training Center is an integrated training hub that combines modernity, professionalism, and hands-on practice. Its facilities are designed to match job-market needs across tourism, hospitality, culinary arts, nutrition, media, design, and digital marketing—so trainees experience learning that closely simulates real workplace environments.",
+      "pointsTitle": "Key Facilities & Equipment",
+      "summaryTitle": "In Summary",
+      "p2": "The center brings together modern equipment, specialized tools, realistic practical environments, and well-organized spacious interiors—delivering a complete, professional training experience focused on real skills and applied learning.",
+      "points": {
+        "b1": "Modern classrooms equipped with smart displays, sound systems, interactive learning tools, whiteboards, planned lighting, and proper ventilation.",
+        "b2": "Advanced computer labs and high-spec devices for graphic design, editing/content creation, digital marketing, and campaign management training.",
+        "b3": "Professional photo/video and editing setup: high-resolution cameras, specialized lighting, rigs, versatile backdrops, and full editing stations.",
+        "b4": "A fully equipped training kitchen that simulates professional kitchens with ovens, stoves, prep tools, and safe storage/cooling—aligned with quality and food safety standards.",
+        "b5": "Nutrition diploma tools: digital scales, calorie and meal-planning tools, body metrics/indicators measurement devices, plus applied practice inside the training kitchen.",
+        "b6": "Spacious, flexible interiors designed for smooth movement and practical training without congestion, with adaptable spaces based on course type."
+      }
+    },
+
+    "values": {
+      "title": "Our Values",
+      "items": {
+        "v1": {
+          "title": "Quality & Discipline",
+          "desc": "Clear standards, structured learning, and measurable outcomes."
+        },
+        "v2": {
+          "title": "Supportive Environment",
+          "desc": "We support learners step-by-step to ensure growth and confidence."
+        },
+        "v3": {
+          "title": "Academic Professionalism",
+          "desc": "Modern curricula with applied practice guided by specialists."
+        }
+      }
+    },
+
+    "cta": {
+      "title": "Ready to join?",
+      "subtitle": "Explore diplomas or contact us—we’ll help you choose the right track.",
+      "diplomas": "Diplomas",
+      "contact": "Contact"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We’re here to answer your questions",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": "Your message has been sent successfully! We’ll get back to you soon.",
+    "error": "An error occurred while sending your message. Please try again.",
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least 10 characters",
+      "phoneInvalid": "Invalid phone number",
+      "robotDetected": "Unusual submission detected. Please try again."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "noData": "No data available",
+    "viewMore": "View more",
+    "back": "Back",
+    "close": "Close"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us"
+  }
+}
